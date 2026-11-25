@@ -1,3 +1,5 @@
+--Sebastián--
+
 CREATE TABLE servicos (
     id_servico INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL UNIQUE,
