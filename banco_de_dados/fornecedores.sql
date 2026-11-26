@@ -9,3 +9,4 @@ CREATE TABLE IF NOT EXISTS fornecedores (
     cidade VARCHAR(60),
     ativo BOOLEAN NOT NULL DEFAULT TRUE
 );
+ papas fritas 1234
