@@ -1,6 +1,6 @@
 --Sebastián--
 
-CREATE TABLE fornecedores (
+CREATE TABLE IF NOT EXISTS fornecedores (
     id_fornecedor INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     cnpj VARCHAR(18) NOT NULL UNIQUE,
