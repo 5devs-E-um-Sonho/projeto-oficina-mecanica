@@ -1,5 +1,3 @@
---Sebastián--
-
 CREATE TABLE IF NOT EXISTS servicos (
     id_servico INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL UNIQUE,
