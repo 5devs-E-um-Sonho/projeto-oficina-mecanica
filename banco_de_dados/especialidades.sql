@@ -6,7 +6,6 @@ especialidade VARCHAR(110) NOT NULL,
 descricao TEXT
 );
 
---asdadddadadadad
 
 INSERT INTO especialidades (especialidade, descricao)
 VALUES 
