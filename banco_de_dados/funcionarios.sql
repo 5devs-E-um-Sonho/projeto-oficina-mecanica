@@ -20,3 +20,15 @@ VALUES
 ('Danilo', 7),
 ('João', 8),
 ('Mohammed', 9);
+
+INSERT INTO funcionarios (funcionario_nome, especialidade_id)
+VALUES
+('Felipe', 1),
+('Brian', 2),
+('Wesley', 3),
+('Diney', 4),
+('Pedro', 5),
+('Miguel', 6),
+('Viktor', 7),
+('Alexandre', 8),
+('Paulo', 9);
