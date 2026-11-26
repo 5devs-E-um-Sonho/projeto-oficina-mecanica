@@ -6,6 +6,8 @@ especialidade VARCHAR(110) NOT NULL,
 descricao TEXT
 );
 
+--asdadddadadadad
+
 INSERT INTO especialidades (especialidade, descricao)
 VALUES 
 ('clinico geral', 'é o profissional polivalente. Faz revisões basicas, troca de oleo, correias, filtros, freios e suspensão simples'),
