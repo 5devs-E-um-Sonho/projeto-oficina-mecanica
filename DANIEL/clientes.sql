@@ -6,5 +6,11 @@ CREATE TABLE IF NOT EXISTS clientes (
     FOREIGN KEY (veiculo_id) REFERENCES veiculos(id),
 );
 
-INSERT INTO clientes (nome_cliente, modelo_carro_cliente, fabricante_carro_cliente)
-VALUES("Raquel", "Toyota", "Corolla");
+INSERT INTO clientes (nome_cliente, veiculo_id)
+VALUES("Raquel", 1);
+VALUES("Sofia", 3);
+VALUES("Pedro", 6);
+VALUES("Julia", 7);
+VALUES("Josepe", 4);
+VALUES("João", 3);
+VALUES("Eduardo", 2);
