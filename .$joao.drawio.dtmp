@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
   <diagram name="DER Oficina Mecânica" id="F3rVsh_wa6WuQt-X4GAp">
-    <mxGraphModel dx="2049" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="674" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,7 +120,7 @@
           <mxGeometry x="1030" y="390" width="265" height="225" as="geometry" />
         </mxCell>
         <mxCell id="2ahMPemGGhX0MEZWxDiL-38" value="&lt;div style=&#39;font-family:Arial;font-size:13px;line-height:1.3;padding:5px;&#39;&gt;&lt;b style=&#39;font-size:16px&#39;&gt;status_ordem&lt;/b&gt;&lt;hr/&gt;id_status : &lt;b&gt;INT (PK)&lt;/b&gt;&lt;br/&gt;descricao : &lt;b&gt;VARCHAR(50)&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=5;fillColor=#ffffff;strokeColor=#456782;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="390" width="265" height="225" as="geometry" />
+          <mxGeometry x="1350" y="390" width="265" height="225" as="geometry" />
         </mxCell>
         <mxCell id="2ahMPemGGhX0MEZWxDiL-39" value="&lt;div style=&#39;font-family:Arial;font-size:13px;line-height:1.3;padding:5px;&#39;&gt;&lt;b style=&#39;font-size:16px&#39;&gt;historico_status&lt;/b&gt;&lt;hr/&gt;id_historico : &lt;b&gt;INT (PK)&lt;/b&gt;&lt;br/&gt;id_ordem : &lt;b&gt;INT (FK)&lt;/b&gt;&lt;br/&gt;id_status : &lt;b&gt;INT (FK)&lt;/b&gt;&lt;br/&gt;data_hora : &lt;b&gt;DATETIME&lt;/b&gt;&lt;br/&gt;observacao : &lt;b&gt;TEXT&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=5;fillColor=#ffffff;strokeColor=#456782;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="40" y="700" width="265" height="225" as="geometry" />
