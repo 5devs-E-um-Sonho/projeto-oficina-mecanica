@@ -4,6 +4,7 @@ CREATE TABLE IF NOT EXISTS contatos_cliente (
     contato_cliente VARCHAR(100) UNIQUE NOT NULL,
     FOREIGN KEY (cliente_id) REFERENCES clientes(id)
 );
+
 INSERT INTO clientes (email, cliente_id)
 VALUES ('raquel@gmail.com', 1),
     ('sofia@gmail.com', 2),
