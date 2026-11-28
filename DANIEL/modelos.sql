@@ -2,7 +2,7 @@
 CREATE TABLE IF NOT EXISTS modelos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     fabricante VARCHAR(50) NOT NULL,
-    modelo VARCHAR(50) NOT NULL
+    modelo VARCHAR(50) NOT NULL,
     tipo VARCHAR(1) NOT NULL
 )
 
