@@ -33,6 +33,7 @@ VALUES
 ('Alexandre', 8, 'ajudante', 1),
 ('Paulo', 9, 'ajudante', 0);
 
-ALTER TABLE funcionarios
-ADD cargo VARCHAR(120) NOT NULL,
-ADD ativo BOOLEAN DEFAULT 1;
+--ALTER TABLE funcionarios (
+--ADD cargo VARCHAR(120) NOT NULL,
+--ADD ativo BOOLEAN DEFAULT 1
+--);

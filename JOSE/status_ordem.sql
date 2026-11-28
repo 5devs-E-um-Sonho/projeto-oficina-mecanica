@@ -1,0 +1,4 @@
+CREATE TABLE status_ordem (
+id INT AUTO_INCREMENT PRIMARY KEY,
+estado VARCHAR(50) NOT NULL
+);

@@ -1,0 +1,5 @@
+CREATE TABLE ordens_servico (
+id INT AUTO_INCREMENT PRIMARY KEY,
+
+
+)
